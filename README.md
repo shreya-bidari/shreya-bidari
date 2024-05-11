@@ -1,4 +1,7 @@
 ### Hi there 👋
+first-repository
+<br>
+Author-Shreya P Bidari
 
 <!--
 **shreya-bidari/shreya-bidari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
