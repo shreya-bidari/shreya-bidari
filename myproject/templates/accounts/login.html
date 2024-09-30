@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block style %}
+<style>
+  body{
+    background-color:red;
+  }
+</style>
+{% endblock %}
+
+{% block data %}
+<h2>Login</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Login</button>
+</form>
+<a href="{% url 'register' %}">Register here</a>
+
+{% endblock %}
